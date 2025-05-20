@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Free Image Downloads</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .image-card {
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    .image-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .download-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Download Free Images</h1>
+  <div class="gallery">
+    <!-- Image 1 -->
+    <div class="image-card">
+      <img src="images/sample1.jpg" alt="Image 1">
+      <a class="download-btn" href="images/sample1.jpg" download>Download</a>
+    </div>
+    
+    <!-- Image 2 -->
+    <div class="image-card">
+      <img src="images/sample2.jpg" alt="Image 2">
+      <a class="download-btn" href="images/sample2.jpg" download>Download</a>
+    </div>
+
+    <!-- Add more images below -->
+  </div>
+
+</body>
+</html>
